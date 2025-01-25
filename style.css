@@ -55,6 +55,10 @@ body {
   animation: fadeInUp 1s forwards;
 }
 
+.border{
+  backdrop-filter: blur(10px);
+}
+
 @keyframes fadeInUp {
   to {
     opacity: 1;
